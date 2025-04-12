@@ -35,7 +35,7 @@ function doGet(e) {
     Logger.log('Comment: ' + comment);
     
     // Open the Google Sheet by ID
-    const ss = SpreadsheetApp.openById('1aR-Qqt7vzd4PffYCPZlZJ0hCK6q_xlGBiBQ_nDMQu5Y');
+    const ss = SpreadsheetApp.openById("YOUR_GOOGLE_SHEETS_ID");
     const sheet = ss.getSheets()[0]; // Use the first sheet
     
     // Add data to the sheet
